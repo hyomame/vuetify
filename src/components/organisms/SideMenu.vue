@@ -5,7 +5,7 @@
         <v-list-item-icon>
           <v-icon>mdi-vuetify</v-icon>
         </v-list-item-icon>
-        <v-list-item-title>title</v-list-item-title>
+        <v-list-item-title>drawer</v-list-item-title>
       </v-list-item>
       <v-divider></v-divider>
       <template v-for="(item, index) in menu">

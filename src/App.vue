@@ -16,8 +16,7 @@
         v-if="$vuetify.breakpoint.smAndDown"
         @click="showDrawer"
       ></v-app-bar-nav-icon>
-      <v-toolbar-title>Home</v-toolbar-title>
-      <!--<HeaderMenu />-->
+      <v-toolbar-title>app-bar</v-toolbar-title>
     </v-app-bar>
     <v-content>
       <router-view></router-view>
@@ -26,13 +25,11 @@
 </template>
 
 <script>
-//import HeaderMenu from "@/components/organisms/HeaderMenu";
 import SideMenu from "@/components/organisms/SideMenu";
 
 export default {
   name: "App",
   components: {
-    //HeaderMenu,
     SideMenu
   },
   data() {
